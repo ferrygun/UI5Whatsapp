@@ -1,0 +1,18 @@
+
+<mvc:View controllerName="pfe.bot.controller.App" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns:controls="pfe.bot.controls" displayBlock="true" xmlns="sap.m">
+    <App id="idAppControl">
+        <pages>
+            <Page title="{i18n&gt;title}">
+                <footer>
+                    <Bar>
+                        <contentRight>
+                            <ToolbarSpacer width="" />
+                            <Button text="Whatsapp Me" icon="sap-icon://discussion" tooltip="{i18n&gt;Clear}" press="onChatPress" />
+                            <controls:ChatDialog id="botchat" title="Whatsapp ChatBot!" height="600px" width="350px" showCloseButton="false" send="onSendPressed" initialMessage="Hi! Start chatting with me" placeHolder="Write a reply" userIcon="https://cdn.recast.ai/webchat/user.png" robotIcon="images/whatsapp.png" buttonIcon="sap-icon://discussion"></controls:ChatDialog>
+                        </contentRight>
+                    </Bar>
+                </footer>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>

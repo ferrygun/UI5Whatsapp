@@ -1,0 +1,114 @@
+.bkHideChat {
+	visibility: hidden; 
+	display: none; 
+	top: 0; 
+	left: 0;
+}
+
+
+.bkUserInput .sapMFeedListItemTextText {
+	position: relative;
+	border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: #E5E5E5;
+    background: #EFF4F9;
+}
+
+.bkRobotInput .sapMFeedListItemTextText{
+	position: relative;
+	border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: #E5E5E5;
+    background: #EFF4F9;
+}
+
+
+.bkRobotInput .sapMFeedListItemTextString:after {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    width: 0;
+    border-right: 10px solid #EFF4F9;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+}
+
+.bkRobotInput .sapMFeedListItemTextString:before {
+    content: "";
+    position: absolute;
+    left: -11px;
+    top: 10px;
+    width: 0;
+    border-right: 10px solid #E5E5E5;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+}
+
+.bkUserInput .sapMFeedListItemTextString:after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    width: 0;
+    border-left: 10px solid #EFF4F9;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+}
+
+.bkUserInput .sapMFeedListItemTextString:before {
+    content: "";
+    position: absolute;
+    right: -11px;
+    top: 10px;
+    width: 0;
+    border-left: 10px solid #E5E5E5;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+}
+
+.bkUserInput figure {
+	float: right;
+}
+
+
+.bkUserInput .sapMFeedListItemHasFigure {
+	margin-right: 3.75rem;
+}
+
+.sapMFeedIn {
+	width: auto;
+}
+
+.bkChatButton{
+	width: 100px;
+	height: 100px;
+	margin: 20px auto;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+.bkCircle {
+	border-radius: 50%;
+}
+
+.bkCircleButton {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.bkCircleButton span.sapMBtnInner {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.sapMLabel {
+    font-size: 0.675rem !important;
+}
